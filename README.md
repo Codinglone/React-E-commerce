@@ -8,7 +8,7 @@ simple shopping experience that puts the focus on the products.</p>
 
 <p>Credits for the design goes to <a href='https://github.com/Abderraouf-Rahmani'>Abderraouf</a></p>
 
-👉 Live Demo: <a href='https://react-e-commerce-rho.vercel.app/'>Ecommerce Demo</a>
+👉 Live Demo: <a href='https://react-e-commerce-rho.vercel.app/' target="_blank">Ecommerce Demo</a>
 
 <h3>Build with:</h3>
 
