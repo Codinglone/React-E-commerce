@@ -1,0 +1,74 @@
+.row-item {
+    outline: 2px solid rgba(0, 0, 0, .205);
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+}
+
+.row-item:hover {
+    outline: 2px solid rgba(0, 0, 0, .6);
+}
+
+.trending {
+    padding-bottom: 10rem;
+}
+
+.item-header img {
+    width: 21rem;
+}
+
+.item-description {
+    font-size: 1.7rem;
+    padding: 1rem;
+}
+
+.trending h3 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin-bottom: 4.2rem !important;
+}
+
+.row-container {
+    display: flex;
+    gap: 2.2rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    position: relative;
+    padding: 1rem .6rem;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.row-container::-webkit-scrollbar {
+    display: none;
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.title-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns button {
+    color: white;
+    background-color: #373737;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    height: 4rem;
+    width: 4rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+
+.btns {
+    display: flex;
+    gap: .4rem;
+}
+
+.btns button:hover {
+    background-color: black;
+}
